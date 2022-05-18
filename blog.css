@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+:root{
+    --bege: #F6F2D4;
+    --azulforte: #22577E;
+    --azulagua: #95D1CC;
+    --azulfraco: #5584AC;
+
+}
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    background: var(--bege);
+}
+
+body, button, input, select, textarea {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+{
+    font-size: 44px;
+}
+{
+    font-size: 24px;
+}
+/*margem e gordura da fonte*/
+h1,h2 {
+    font-size: 44px;
+    margin: 0;
+    font-weight: 400;
+}
+p{ 
+    font-size: 20px;
+
+
+}
+button{
+    background-color: var(--azulagua);
+    border: 0;
+    border-radius: 16px;
+    /*aumenta botao e deixa txto centro*/
+    padding: 10px 35px;
+    top:;
+    font-size: 25px;
+    display: flex;    
+    align-items: center;
+
+
+}
+
+header{
+    background: ;
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: ;
+}
+
+header .container{
+    width: 50%;
+    /* fixa o tamanha pre determinado*/
+    height: fit-content;
+    padding:  100px;
+
+}
+nav ul a{
+    color: var(--azulforte);
+    font-size: 35px;
+    text-decoration: none;
+    /*separa as palavras */
+    margin: 0 35px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    /*espaços entre */
+    justify-content: space-between;
+    height: 45px;
+    padding: 0 100px;
+    position: sticky;
+    top: 0;
+        
+}
+
+nav img{
+    height: 200px;
+}
