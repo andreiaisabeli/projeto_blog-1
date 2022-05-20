@@ -18,12 +18,7 @@ html, body{
 body, button, input, select, textarea {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-{
-    font-size: 44px;
-}
-{
-    font-size: 24px;
-}
+
 /*margem e gordura da fonte*/
 h1,h2 {
     font-size: 44px;
@@ -35,6 +30,7 @@ p{
 
 
 }
+
 button{
     background-color: var(--azulagua);
     border: 0;
@@ -60,8 +56,14 @@ header .container{
     width: 50%;
     /* fixa o tamanha pre determinado*/
     height: fit-content;
-    padding:  100px;
+    padding: 100px;
 
+}
+header .container img{
+    display: none;
+}
+header .container h1{
+    color: var();
 }
 nav ul a{
     color: var(--azulforte);
@@ -84,4 +86,26 @@ nav{
 
 nav img{
     height: 200px;
+}
+
+section{
+    background: ;
+    height: 1000px;
+}
+.png img{
+    position: absolute;
+    left: 112px;
+    height: 100px;
+    padding: 0 1px;
+    margin: 50px;
+
+}
+@media(max-width: 767px){
+    header .container img{
+        display: inline;
+        height: 45px;
+    }
+    nav img{
+        display:none;
+    };
 }
