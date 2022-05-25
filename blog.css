@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 
 :root{
-    --bege: #F6F2D4;
-    --azulforte: #22577E;
-    --azulagua: #95D1CC;
-    --azulfraco: #5584AC;
+    --bege: #F9F3EE;
+    --verdeforte: #97C4B8;
+    --rosa: #F9CEEE;
+    --verdefraco: #CCF3EE;
 
 }
 *{
@@ -26,13 +26,13 @@ h1,h2 {
     font-weight: 400;
 }
 p{ 
-    font-size: 20px;
+    font-size: 25px;
 
 
 }
 
 button{
-    background-color: var(--azulagua);
+    background-color: var(--rosa);
     border: 0;
     border-radius: 16px;
     /*aumenta botao e deixa txto centro*/
@@ -66,11 +66,15 @@ header .container h1{
     color: var();
 }
 nav ul a{
-    color: var(--azulforte);
+    color: var(--verdeforte);
     font-size: 35px;
     text-decoration: none;
     /*separa as palavras */
     margin: 0 35px;
+}
+nav ul{
+    position: relative;
+    top: -58px;
 }
 nav{
     display: flex;
@@ -92,12 +96,46 @@ section{
     background: ;
     height: 1000px;
 }
+.icon svg{
+    position: absolute;
+    height: 34px;
+    margin: 59px;
+    width: 10%;
+    top: 406px;
+    left: 1200px;
+}
+.icon2 svg{
+    position: absolute;
+    height: 34px;
+    margin: 59px;
+    width: 10%;
+    top: 410px;
+    left: 1290px;
+}
+.icon3 svg{
+    position: absolute;
+    height: 34px;
+    margin: 59px;
+    width: 10%;
+    top: 410px;
+    left: 1382px;
+}
+
+
 .png img{
     position: absolute;
     left: 112px;
     height: 100px;
     padding: 0 1px;
     margin: 50px;
+
+}
+.foto img{
+    position: absolute;
+    width: 18%;
+    /*height: 299px; */
+    left: 1277px;
+    top: 75px;
 
 }
 @media(max-width: 767px){
@@ -107,5 +145,19 @@ section{
     }
     nav img{
         display:none;
+    };
+}
+
+@media(max-width: 480px){
+    header .container img{
+        padding: 0 40px;
+    }
+    nav img{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        top: unset;
+        padding: 0 15px;
+
     };
 }
