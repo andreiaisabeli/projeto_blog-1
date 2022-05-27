@@ -96,29 +96,57 @@ section{
     background: ;
     height: 1000px;
 }
-.icon svg{
+.icones svg{
     position: absolute;
+    top: 410px;
+    width: 10%;
     height: 34px;
     margin: 59px;
-    width: 10%;
+}
+.icon svg{
     top: 406px;
     left: 1200px;
 }
 .icon2 svg{
-    position: absolute;
-    height: 34px;
-    margin: 59px;
-    width: 10%;
-    top: 410px;
     left: 1290px;
 }
 .icon3 svg{
-    position: absolute;
-    height: 34px;
-    margin: 59px;
-    width: 10%;
-    top: 410px;
     left: 1382px;
+}
+
+.info a{
+    position: absolute;
+    color: var(--rosa);
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-decoration: none;
+    /*separa as palavras */
+    margin: 0 35px;
+}
+.info .info1 {
+    display: flex;
+    padding: 100px;
+    left: 1382px;
+    top: 100px;
+}
+
+.retan2 img{
+    position: absolute;
+    top: 1044px;
+    left: 653px;
+    width: 30%;
+    align-items: center;
+
+}
+
+.retan2 .retangulo1{
+    top: 1404px;
+
+    
+}
+.retan2 .retangulo1{
+    
 }
 
 
