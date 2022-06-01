@@ -115,25 +115,99 @@ section{
 }
 
 .info a{
-    position: absolute;
-    color: var(--rosa);
-    font-size: 35px;
-    margin-left: auto;
-    margin-right: auto; 
     text-decoration: none;
+    position: absolute;
+    align-items: center;
+    color: var(--rosa);
+    padding: 0 100px;
+    font-size: 45px;
+    left: 780px;
+    width: 100%;
+    margin: 0px;
     /*separa as palavras */
-    margin: 0 35px;
 }
+
 .info .info1 {
-    display: flex;
-    padding: 100px;
-    left: 1382px;
-    top: 100px;
+    top: 1035px;
+}
+.info .info2 {
+    top: 1320px;
+}
+.info .info3 {
+    top: 1035px;
+}
+.info .info4 {
+    top: 1035px;
+}
+.info .info5 {
+    top: 1035px;
+}
+.sobremim p{
+    position: absolute;
+    font-size: 30px;
+    top: 1135px;
+    width: 100%;
+    padding: 0 100px;
+    margin: 0px;
+    text-align: center;
+}
+
+.sevicos{
+    height: fit-content;
+    margin: 120px;
+    
+}
+.servicos1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 322px;
+    margin-left: 325px;
+    height: 351px;
+    top: 1400px;
+    /* asssa */
+    border: 1px solid var(--verdeforte);
+}
+.servicos2{
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 785px;
+    width: 322px;
+    height: 351px;
+    top: 1400px;
+    /* asssa */
+    border: 1px solid var(--verdeforte);
+}
+.servicos3{
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 1225px;
+    width: 322px;
+    height: 351px;
+    top: 1400px;
+    /* asssa */
+    border: 1px solid var(--verdeforte);
+}
+
+.iconservicos{
+    height: fit-content;
+    margin: 120px;
+}
+.iconserv1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 83px;
+    align-items: center;
+    text-align: center;
+    height: 83px;
+    margin-left: 325px;
+    top: 1430px;
+/* as */
+    border: 2px solid var(--rosa);
+    border-radius: 50%;
 }
 
 .retan2 img{
     position: absolute;
-    top: 1044px;
     left: 653px;
     width: 30%;
     align-items: center;
@@ -141,12 +215,13 @@ section{
 }
 
 .retan2 .retangulo1{
-    top: 1404px;
+    top: 1044px;
 
     
 }
-.retan2 .retangulo1{
-    
+.retan2 .retangulo2{
+    top: 1330px;
+
 }
 
 
