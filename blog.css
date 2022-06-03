@@ -205,6 +205,57 @@ section{
     border: 2px solid var(--rosa);
     border-radius: 50%;
 }
+.iconserv2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 83px;
+    align-items: center;
+    text-align: center;
+    height: 83px;
+    margin-left: 463px;
+    top: 0px;
+/* as */
+    border: 2px solid var(--rosa);
+    border-radius: 50%;
+}
+
+.iconserv3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 83px;
+    align-items: center;
+    text-align: center;
+    height: 83px;
+    margin-left: 432px;
+    top: 0px;
+/* as */
+    border: 2px solid var(--rosa);
+    border-radius: 50%;
+}
+
+.featherserv svg{
+    color: var(--rosa);
+    position: absolute;
+    top: 1398px;
+    width: 10%;
+    height: 34px;
+    margin: 59px;
+}
+.featherserv1 svg{
+    top: 1395px;
+    left: 332px;
+}
+.featherserv2 svg{
+    top: 1396px;
+    left: 797px;
+}
+.featherserv3 svg{
+    left: 1231px;
+
+}
+
+
+
 
 .retan2 img{
     position: absolute;
