@@ -134,7 +134,7 @@ section{
     top: 1320px;
 }
 .info .info3 {
-    top: 1035px;
+    top: 1820px;
 }
 .info .info4 {
     top: 1035px;
@@ -274,6 +274,10 @@ section{
     top: 1330px;
 
 }
+.retan2 .retangulo3{
+    top: 1830px;
+
+}
 
 
 .png img{
@@ -292,6 +296,94 @@ section{
     top: 75px;
 
 }
+.servicotexto p{
+    color: var(--verdeforte);
+    position: absolute;
+    top: 1625px;
+    margin: 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.titulo1 p{
+    position: absolute;
+    top: 1545px;
+    left: 410px;
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 31px;
+    text-align: center;
+
+}
+.titulo2 p{
+    position: absolute;
+    top: 1545px;
+    left: 865px;
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 31px;
+    text-align: center;
+
+}
+.titulo3 p{
+    position: absolute;
+    top: 1545px;
+    left: 1305px;
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 31px;
+    text-align: center;
+
+}
+.texto1 p {
+    top: 1625px;
+    left: 350px;
+    
+
+}
+.texto2 p {
+    left: 708px;
+    margin: 0;
+    padding: 0 100px;
+    align-items: center;
+
+}
+.texto3 p {
+    left: 1255px;
+
+}
+.portifolio img{
+    position: absolute;
+    left: 750px;
+    top: 1890px;
+    width: 20%;
+    align-items: center;
+
+}
+.portifolio .portifolio1{
+    position: absolute;
+    left: 253px;
+    top: 1890px;
+    width: 20%;
+    align-items: center;
+
+}
+.portifolio .portifolio3{
+    position: absolute;
+    left: 1253px;
+    top: 1890px;
+    width: 20%;
+    align-items: center;
+
+}
+.tituloport p{
+    position: absolute;
+    top: 2225px;
+    margin: 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
 @media(max-width: 767px){
     header .container img{
         display: inline;
